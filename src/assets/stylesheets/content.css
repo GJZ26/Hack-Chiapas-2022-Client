@@ -1,5 +1,7 @@
 main{
+    display: flex;
+    justify-content: center;
     background-color: rgb(131, 131, 131);
-    width: 80%;
+    width: 85%;
     height: 100vh;
 }

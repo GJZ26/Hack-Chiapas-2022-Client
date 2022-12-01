@@ -1,0 +1,28 @@
+.extended-card{
+    margin: 30px;
+    padding: 25px;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+}
+
+.head-card{
+    display: flex;
+    align-items: center;
+}
+
+.username-card{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.profile-picture-min{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.card-content{
+    margin-top: 20px;
+}
