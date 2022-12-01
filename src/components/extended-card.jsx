@@ -4,17 +4,37 @@ import '../assets/stylesheets/extCard.css'
 function ExtendedCard() {
     return (
         <div className="extended-card">
-            <div className="head-card">
-                <img className="profile-picture-min" src={dummy} />
-                <span className='username-card'>Pamela Chu</span>
-            </div>
-            <div className="content-post">
-                <div className="card">
-                    <h1 className="title-card">Título de la publicación</h1>
-                    <p className="card-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolor est sint perferendis dolore perspiciatis odit! Maiores excepturi aliquam sequi amet accusantium explicabo nisi modi dicta, minima veritatis, quam enim?
-                    </p>
+            <div className="post">
+                <div className="head-card">
+                    <img className="profile-picture-min" src={dummy} />
+                    <span className='username-card'>Sandra Cruise</span>
                 </div>
+                <div className="content-post">
+                    <div className="controller">&lt;</div>
+                    <div className="card">
+                        <h1 className="title-card">Título de la publicación</h1>
+                        <p className="card-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolor est sint perferendis dolore perspiciatis odit! Maiores excepturi aliquam sequi amet accusantium explicabo nisi modi dicta, minima veritatis, quam enim?
+                        </p>
+                    </div>
+                    <div className="controller">&gt;</div>
+                </div>
+            </div>
+            <div className="comment-section">
+                <h1 className="comment-header">Comentarios</h1>
+                <span className="comment">
+                    Hola soy un  comentario :)
+                </span>
+                <span className="comment">
+                    Hola soy un  comentario :)
+                </span>
+                <span className="comment">
+                    Hola soy un  comentario :)
+                </span>
+                <span className="comment">
+                    Hola soy un  comentario :)
+                </span>
+                <input type="text" name="" id="" className="commentype" placeholder='Escribe un comentario'/>
             </div>
         </div>
     );
