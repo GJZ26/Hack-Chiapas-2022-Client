@@ -7,10 +7,12 @@ import img4 from '../assets/images/companie-4.png'
 function Companies() {
     return (
         <div className="companies">
-            <div className="card-companie">
-                <img src={img1} className="companie" />
-                <span className="companie-name">LKL</span>
-            </div>
+            <a href="/companie">
+                <div className="card-companie">
+                    <img src={img1} className="companie" />
+                    <span className="companie-name">LKL</span>
+                </div>
+            </a>
             <div className="card-companie">
                 <img src={img2} className="companie" />
                 <span className="companie-name">Evolution</span>
