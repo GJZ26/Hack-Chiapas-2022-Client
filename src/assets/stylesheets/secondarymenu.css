@@ -1,0 +1,21 @@
+.secondary-menu {
+    background-color: #242426;
+    height: 93px;
+    display: flex;
+    align-items: center;
+}
+
+.link-second-menu {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+}
+
+.link-second-menu:hover {
+    color: #18CBA4;
+}
+
+.logo {
+    font-weight: normal;
+    font-size: 30px;
+}
