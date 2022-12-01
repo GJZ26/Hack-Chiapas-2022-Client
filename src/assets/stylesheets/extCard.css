@@ -1,9 +1,10 @@
 .extended-card{
+    color: white;
+    align-self: center;
     margin: 30px;
     padding: 25px;
     width: 50%;
     height: 400px;
-    background-color: white;
 }
 
 .head-card{
@@ -18,11 +19,24 @@
 }
 
 .profile-picture-min{
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
 }
 
+.title-card{
+    font-size: 20px;
+}
+
 .card-content{
+    font-size: 14px;
     margin-top: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 15px;
+    padding: 29px 25px;
+    background-color: #242426;
 }

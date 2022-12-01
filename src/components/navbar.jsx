@@ -21,6 +21,11 @@ function Menu() {
                 <a className='navlinks' href="">Configuraciones</a>
                 <a className='navlinks' href="">Cerrar Sesión</a>
             </div>
+            <div className="section-social">
+                <a href="" className="social-link">Facebook</a>
+                <a href="" className="social-link">Instagram</a>
+                <a href="" className="social-link">Twitter</a>
+            </div>
         </nav>
     );
 }
