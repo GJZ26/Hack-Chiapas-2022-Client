@@ -1,5 +1,7 @@
 import '../assets/stylesheets/menu.css'
 import dummy from '../assets/images/dummy.jpeg'
+import { FaHome,FaMagic,FaMapMarkedAlt, FaHeart } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 function Menu() {
     return (
@@ -13,18 +15,18 @@ function Menu() {
             </div>
             <hr />
             <div className="section-nav">
-                <a className='navlinks' href="/">Home</a>
-                <a className='navlinks' href="/suggest">Recomendaciones</a>
-                <a className='navlinks' href="">Localizaciones</a>
-                <a className='navlinks' href="">Me Gusta</a>
+                <Link to={"/"} className='navlinks'><FaHome></FaHome> Home</Link>
+                <Link to={"/suggest"} className='navlinks'><FaMagic></FaMagic> Recomendaciones</Link>
+                <Link to={"/"} className='navlinks'><FaMapMarkedAlt></FaMapMarkedAlt> Localizaciones</Link>
+                <Link to={"/"} className='navlinks'><FaHeart></FaHeart> Me Gusta</Link>
                 <hr />
-                <a className='navlinks' href="">Configuraciones</a>
-                <a className='navlinks' href="">Cerrar Sesión</a>
+                <Link to={"/"} className='navlinks' >Configuraciones</Link>
+                <Link to={"/"} className='navlinks' >Cerrar Sesión</Link>
             </div>
             <div className="section-social">
-                <a href="" className="social-link">Facebook</a>
-                <a href="" className="social-link">Instagram</a>
-                <a href="" className="social-link">Twitter</a>
+                <Link to={"/"} className="social-link">Facebook</Link>
+                <Link to={"/"} className="social-link">Instagram</Link>
+                <Link to={"/"} className="social-link">Twitter</Link>
             </div>
         </nav>
     );

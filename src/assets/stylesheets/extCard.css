@@ -6,6 +6,11 @@
     padding: 25px;
     width: 70%;
     height: 400px;
+    justify-content: flex-start;
+}
+
+.extended-card .head-card{
+    margin-left: 10%;
 }
 
 .head-card {
@@ -53,6 +58,12 @@
     width: 35px;
     aspect-ratio: 1/1;
     background-color: #18CBA4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controller .svg1{
+    transform: rotateY(180deg);
 }
 
 .comment-section{

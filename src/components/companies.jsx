@@ -3,16 +3,17 @@ import img1 from '../assets/images/companie-1.jpg'
 import img2 from '../assets/images/companie-2.jpg'
 import img3 from '../assets/images/companie-3.png'
 import img4 from '../assets/images/companie-4.png'
+import {Link} from "react-router-dom";
 
 function Companies() {
     return (
         <div className="companies">
-            <a href="/companie">
+            <Link to={"/companie"}>
                 <div className="card-companie">
                     <img src={img1} className="companie" />
                     <span className="companie-name">LKL</span>
                 </div>
-            </a>
+            </Link>
             <div className="card-companie">
                 <img src={img2} className="companie" />
                 <span className="companie-name">Evolution</span>
