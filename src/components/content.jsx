@@ -1,15 +1,14 @@
 import '../assets/stylesheets/content.css'
-import ExtendedCard from './extended-card';
 import MenuSecond from './secondMenu';
 import backSk from '../assets/images/back-skate.jpeg'
 
-function Content() {
+function Content({child}) {
     return (
 
         <main style={{ backgroundImage: `url(${backSk})` }}>
             <div className="filter">
                 <MenuSecond />
-                <ExtendedCard />
+                {child}
             </div>
         </main>
 

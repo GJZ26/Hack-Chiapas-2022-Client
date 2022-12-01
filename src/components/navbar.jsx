@@ -13,8 +13,8 @@ function Menu() {
             </div>
             <hr />
             <div className="section-nav">
-                <a className='navlinks' href="">Home</a>
-                <a className='navlinks' href="">Recomendaciones</a>
+                <a className='navlinks' href="/">Home</a>
+                <a className='navlinks' href="/suggest">Recomendaciones</a>
                 <a className='navlinks' href="">Localizaciones</a>
                 <a className='navlinks' href="">Me Gusta</a>
                 <hr />
